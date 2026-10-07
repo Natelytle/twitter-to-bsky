@@ -1,4 +1,4 @@
-# twitter-to-bsky - crosspost from Twitter/X to Bluesky and Mastodon directly in the web browser
+# twitter-to-bsky - crosspost from Twitter/X to Bluesky directly in the web browser
 
 twitter-to-bsky is a [userscript](https://en.wikipedia.org/wiki/Userscript) written for [Tampermonkey](https://www.tampermonkey.net/) or [Violentmonkey](https://violentmonkey.github.io/get-it/) running in desktop web browsers (Chrome/Firefox/Edge).
 
@@ -18,11 +18,7 @@ Install and activate either the [Tampermonkey](https://www.tampermonkey.net/) or
 
 If you now (re-)load the Twitter/X page, it will be "enhanced" with the following new elements:
 * a black cross button at the bottom of the navigation bar that allows to enter your Mastodon and/or Bluesky credentials in a small popup dialog (see details below).
-* "Mastodon" and "Bluesky" checkboxes in the toolbar of the new post area (both inline and dialog). If a checkbox is checked, pressing the "Post" button will send the same post also to the corresponding platform.
-
-### Mastodon settings
-* "Mastodon Instance URL" is the base URL of your Mastodon instance, e.g. "https://mastodon.social".
-* "Mastodon Access Token" is an access token that you can create in the Mastodon web app via Settings -> Development -> New application.
+* "Bluesky" checkbox in the toolbar of the new post area (both inline and dialog). If a checkbox is checked, pressing the "Post" button will send the same post also to the corresponding platform.
 
 ### Bluesky settings
 * "Bluesky Handle" is your full handle (including ".bsky.social", if this applies).
